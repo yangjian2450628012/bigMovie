@@ -1,0 +1,433 @@
+
+[ ¾©»ªÍø Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php jinghua.php stop" to quit. Start success.
+
+2017-04-24 00:05:01 [debug] Find content page: http://news.jinghua.cn/20161205/f256601.shtml
+2017-04-24 00:05:01 [info] Find pages: 1 
+2017-04-24 00:05:01 [info] Waiting for collect pages: 1 
+2017-04-24 00:05:01 [info] Collected pages: 0 
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601.shtml in 0.092 s
+2017-04-24 00:05:01 [debug] Success download page  in 0 s
+2017-04-24 00:05:01 [debug] Success download page  in 0 s
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601_2.shtml in 0.054 s
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601_3.shtml in 0.054 s
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601_4.shtml in 0.059 s
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601_5.shtml in 0.057 s
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601_6.shtml in 0.044 s
+2017-04-24 00:05:01 [debug] Success download page http://news.jinghua.cn/20161205/f256601_2.shtml in 0.066 s
+2017-04-24 00:05:01 [debug] Success process page http://news.jinghua.cn/20161205/f256601.shtml in 0.591 s
+2017-04-24 00:05:01 [info] Spider running in 0d 0h 0m 0s
+
+[ ¾©»ªÍø Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php jinghua.php stop" to quit. Start success.
+
+2017-04-24 00:06:20 [debug] Find content page: http://news.jinghua.cn/20161205/f256601.shtml
+2017-04-24 00:06:20 [info] Find pages: 1 
+2017-04-24 00:06:20 [info] Waiting for collect pages: 1 
+2017-04-24 00:06:20 [info] Collected pages: 0 
+2017-04-24 00:06:21 [debug] Success download page http://news.jinghua.cn/20161205/f256601.shtml in 0.069 s
+2017-04-24 00:06:21 [debug] Success download page  in 0 s
+2017-04-24 00:06:21 [debug] Success download page  in 0 s
+2017-04-24 00:06:21 [debug] Success download page http://news.jinghua.cn/20161205/f256601_2.shtml in 0.131 s
+2017-04-24 00:06:21 [debug] Success download page http://news.jinghua.cn/20161205/f256601_3.shtml in 0.367 s
+2017-04-24 00:06:21 [debug] Success download page http://news.jinghua.cn/20161205/f256601_4.shtml in 0.266 s
+2017-04-24 00:06:22 [debug] Success download page http://news.jinghua.cn/20161205/f256601_5.shtml in 0.359 s
+2017-04-24 00:06:22 [debug] Success download page http://news.jinghua.cn/20161205/f256601_6.shtml in 0.137 s
+2017-04-24 00:06:22 [debug] Success download page http://news.jinghua.cn/20161205/f256601_2.shtml in 0.04 s
+2017-04-24 00:06:22 [debug] Success process page http://news.jinghua.cn/20161205/f256601.shtml in 1.59 s
+2017-04-24 00:06:22 [info] Spider running in 0d 0h 0m 2s
+
+[ ¾©»ªÍø Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php jinghua.php stop" to quit. Start success.
+
+2017-04-24 00:06:51 [debug] Find content page: http://news.jinghua.cn/20161205/f256601.shtml
+2017-04-24 00:06:51 [info] Find pages: 1 
+2017-04-24 00:06:51 [info] Waiting for collect pages: 1 
+2017-04-24 00:06:51 [info] Collected pages: 0 
+2017-04-24 00:06:54 [debug] Success download page http://news.jinghua.cn/20161205/f256601.shtml in 3.081 s
+2017-04-24 00:06:54 [debug] Success download page  in 0 s
+2017-04-24 00:06:54 [debug] Success download page  in 0 s
+2017-04-24 00:06:54 [debug] Success download page http://news.jinghua.cn/20161205/f256601_2.shtml in 0.041 s
+2017-04-24 00:06:54 [debug] Success download page http://news.jinghua.cn/20161205/f256601_3.shtml in 0.103 s
+2017-04-24 00:06:55 [debug] Success download page http://news.jinghua.cn/20161205/f256601_4.shtml in 0.048 s
+2017-04-24 00:06:55 [debug] Success download page http://news.jinghua.cn/20161205/f256601_5.shtml in 0.623 s
+2017-04-24 00:06:55 [debug] Success download page http://news.jinghua.cn/20161205/f256601_6.shtml in 0.043 s
+2017-04-24 00:06:56 [debug] Success download page http://news.jinghua.cn/20161205/f256601_2.shtml in 1.058 s
+2017-04-24 00:06:56 [info] Result[1]: {"name":"ĞÂ½®°¢ÀÕÌ©ÏÖÎíÚ¡ÃÀ¾° ·Â·ğ×ß½øÍ¯»°ÊÀ½ç","content":"\n\n\n\t\t\t\t<div class=\"picbox\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"imgs\">\n\t\t\t\t\t\t<a><img src=\"http:\/\/img.jinghua.cn\/161205\/38-161205095626.jpg\" id=\"bigimg\" alt=\"\" border=\"0\"\/><\/a>\n\t\t\t\t\t\t<span class=\"prev\" onclick=\"javascript:dPlayPre();\"\/>\n\t\t\t\t\t\t<span class=\"next\" onclick=\"javascript:dPlayNext();\"\/>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<p style=\"text-align:center;color:#999;\"\/>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_body\">\n\t\t\t\t\t<p>¡¡¡¡2016Äê12ÔÂ4ÈÕ£¬ĞÂ½®Ê¡°¢ÀÕÌ©ÊĞ¹úÓªµÚÒ»ÄÁ³¡µÄÎíÚ¡¾°¹Û¡£µ±ÈÕ£¬ĞÂ½®°¢ÀÕÌ©ÊĞºì¶ÕÕò¡¢¹úÓªµÚÒ»ÄÁ³¡¡¢°¢Î­Ì²Õò¡¢ÇĞÄ¾¶ûÇĞ¿ËÕòÒ»´ø³öÏÖ´óÃæ»ıµÄÎíÚ¡¾°¹Û¡£ÃÀÀöµÄÎíÚ¡ÎªÏç´åµÄÊ÷Ä¾ÅûÉÏÒø×°£¬ÓñÊ÷Çí»¨£¬ÉõÊÇºÃ¿´£¬ÓÌÈç±ùÑ©Í¯»°ÊÀ½ç¡£<\/p><p><br\/><\/p>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"img_list\">\n             \t\t<ul><li id=\"list_count\"><a>¹²6Ò³ <\/a><\/li><li id=\"list_proe\"><a href=\"f256601.shtml\">ÉÏÒ»Ò³<\/a><\/li><li class=\"list_other\"><a href=\"f256601.shtml\">1<\/a><\/li><li class=\"list_action\"><a href=\"#\">2<\/a><\/li><li class=\"list_other\"><a href=\"f256601_3.shtml\">3<\/a><\/li><li class=\"list_other\"><a href=\"f256601_4.shtml\">4<\/a><\/li><li class=\"list_other\"><a href=\"f256601_5.shtml\">5<\/a><\/li><li class=\"list_other\"><a href=\"f256601_6.shtml\">6<\/a><\/li><li id=\"list_next\"><a href=\"f256601_3.shtml\">ÏÂÒ»Ò³<\/a><\/li>\n             \t\t<\/ul><\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"clear\">\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\n\t\t\t\t<div class=\"picbox\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"imgs\">\n\t\t\t\t\t\t<a><img src=\"http:\/\/img.jinghua.cn\/161205\/38-161205095631.jpg\" id=\"bigimg\" alt=\"\" border=\"0\"\/><\/a>\n\t\t\t\t\t\t<span class=\"prev\" onclick=\"javascript:dPlayPre();\"\/>\n\t\t\t\t\t\t<span class=\"next\" onclick=\"javascript:dPlayNext();\"\/>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<p style=\"text-align:center;color:#999;\"\/>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_body\">\n\t\t\t\t\t<p>¡¡¡¡2016Äê12ÔÂ4ÈÕ£¬ĞÂ½®Ê¡°¢ÀÕÌ©ÊĞ¹úÓªµÚÒ»ÄÁ³¡µÄÎíÚ¡¾°¹Û¡£µ±ÈÕ£¬ĞÂ½®°¢ÀÕÌ©ÊĞºì¶ÕÕò¡¢¹úÓªµÚÒ»ÄÁ³¡¡¢°¢Î­Ì²Õò¡¢ÇĞÄ¾¶ûÇĞ¿ËÕòÒ»´ø³öÏÖ´óÃæ»ıµÄÎíÚ¡¾°¹Û¡£ÃÀÀöµÄÎíÚ¡ÎªÏç´åµÄÊ÷Ä¾ÅûÉÏÒø×°£¬ÓñÊ÷Çí»¨£¬ÉõÊÇºÃ¿´£¬ÓÌÈç±ùÑ©Í¯»°ÊÀ½ç¡£<\/p><p><br\/><\/p>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"img_list\">\n             \t\t<ul><li id=\"list_count\"><a>¹²6Ò³ <\/a><\/li><li id=\"list_proe\"><a href=\"f256601_2.shtml\">ÉÏÒ»Ò³<\/a><\/li><li class=\"list_other\"><a href=\"f256601.shtml\">1<\/a><\/li><li class=\"list_other\"><a href=\"f256601_2.shtml\">2<\/a><\/li><li class=\"list_action\"><a href=\"#\">3<\/a><\/li><li class=\"list_other\"><a href=\"f256601_4.shtml\">4<\/a><\/li><li class=\"list_other\"><a href=\"f256601_5.shtml\">5<\/a><\/li><li class=\"list_other\"><a href=\"f256601_6.shtml\">6<\/a><\/li><li id=\"list_next\"><a href=\"f256601_4.shtml\">ÏÂÒ»Ò³<\/a><\/li>\n             \t\t<\/ul><\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"clear\">\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\n\t\t\t\t<div class=\"picbox\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"imgs\">\n\t\t\t\t\t\t<a><img src=\"http:\/\/img.jinghua.cn\/161205\/38-161205095635.jpg\" id=\"bigimg\" alt=\"\" border=\"0\"\/><\/a>\n\t\t\t\t\t\t<span class=\"prev\" onclick=\"javascript:dPlayPre();\"\/>\n\t\t\t\t\t\t<span class=\"next\" onclick=\"javascript:dPlayNext();\"\/>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<p style=\"text-align:center;color:#999;\"\/>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_body\">\n\t\t\t\t\t<p>¡¡¡¡2016Äê12ÔÂ4ÈÕ£¬ĞÂ½®Ê¡°¢ÀÕÌ©ÊĞ¹úÓªµÚÒ»ÄÁ³¡µÄÎíÚ¡¾°¹Û¡£µ±ÈÕ£¬ĞÂ½®°¢ÀÕÌ©ÊĞºì¶ÕÕò¡¢¹úÓªµÚÒ»ÄÁ³¡¡¢°¢Î­Ì²Õò¡¢ÇĞÄ¾¶ûÇĞ¿ËÕòÒ»´ø³öÏÖ´óÃæ»ıµÄÎíÚ¡¾°¹Û¡£ÃÀÀöµÄÎíÚ¡ÎªÏç´åµÄÊ÷Ä¾ÅûÉÏÒø×°£¬ÓñÊ÷Çí»¨£¬ÉõÊÇºÃ¿´£¬ÓÌÈç±ùÑ©Í¯»°ÊÀ½ç¡£<\/p><p><br\/><\/p>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"img_list\">\n             \t\t<ul><li id=\"list_count\"><a>¹²6Ò³ <\/a><\/li><li id=\"list_proe\"><a href=\"f256601_3.shtml\">ÉÏÒ»Ò³<\/a><\/li><li class=\"list_other\"><a href=\"f256601.shtml\">1<\/a><\/li><li class=\"list_other\"><a href=\"f256601_2.shtml\">2<\/a><\/li><li class=\"list_other\"><a href=\"f256601_3.shtml\">3<\/a><\/li><li class=\"list_action\"><a href=\"#\">4<\/a><\/li><li class=\"list_other\"><a href=\"f256601_5.shtml\">5<\/a><\/li><li class=\"list_other\"><a href=\"f256601_6.shtml\">6<\/a><\/li><li id=\"list_next\"><a href=\"f256601_5.shtml\">ÏÂÒ»Ò³<\/a><\/li>\n             \t\t<\/ul><\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"clear\">\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\n\t\t\t\t<div class=\"picbox\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"imgs\">\n\t\t\t\t\t\t<a><img src=\"http:\/\/img.jinghua.cn\/161205\/38-161205095639.jpg\" id=\"bigimg\" alt=\"\" border=\"0\"\/><\/a>\n\t\t\t\t\t\t<span class=\"prev\" onclick=\"javascript:dPlayPre();\"\/>\n\t\t\t\t\t\t<span class=\"next\" onclick=\"javascript:dPlayNext();\"\/>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<p style=\"text-align:center;color:#999;\"\/>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_body\">\n\t\t\t\t\t<p>¡¡¡¡2016Äê12ÔÂ4ÈÕ£¬ĞÂ½®Ê¡°¢ÀÕÌ©ÊĞ¹úÓªµÚÒ»ÄÁ³¡µÄÎíÚ¡¾°¹Û¡£µ±ÈÕ£¬ĞÂ½®°¢ÀÕÌ©ÊĞºì¶ÕÕò¡¢¹úÓªµÚÒ»ÄÁ³¡¡¢°¢Î­Ì²Õò¡¢ÇĞÄ¾¶ûÇĞ¿ËÕòÒ»´ø³öÏÖ´óÃæ»ıµÄÎíÚ¡¾°¹Û¡£ÃÀÀöµÄÎíÚ¡ÎªÏç´åµÄÊ÷Ä¾ÅûÉÏÒø×°£¬ÓñÊ÷Çí»¨£¬ÉõÊÇºÃ¿´£¬ÓÌÈç±ùÑ©Í¯»°ÊÀ½ç¡£<\/p><p><br\/><\/p>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"img_list\">\n             \t\t<ul><li id=\"list_count\"><a>¹²6Ò³ <\/a><\/li><li id=\"list_proe\"><a href=\"f256601_4.shtml\">ÉÏÒ»Ò³<\/a><\/li><li class=\"list_other\"><a href=\"f256601.shtml\">1<\/a><\/li><li class=\"list_other\"><a href=\"f256601_2.shtml\">2<\/a><\/li><li class=\"list_other\"><a href=\"f256601_3.shtml\">3<\/a><\/li><li class=\"list_other\"><a href=\"f256601_4.shtml\">4<\/a><\/li><li class=\"list_action\"><a href=\"#\">5<\/a><\/li><li class=\"list_other\"><a href=\"f256601_6.shtml\">6<\/a><\/li><li id=\"list_next\"><a href=\"f256601_6.shtml\">ÏÂÒ»Ò³<\/a><\/li>\n             \t\t<\/ul><\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"clear\">\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\n\t\t\t\t<div class=\"picbox\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"imgs\">\n\t\t\t\t\t\t<a><img src=\"http:\/\/img.jinghua.cn\/161205\/38-161205095643.jpg\" id=\"bigimg\" alt=\"\" border=\"0\"\/><\/a>\n\t\t\t\t\t\t<span class=\"prev\" onclick=\"javascript:dPlayPre();\"\/>\n\t\t\t\t\t\t<span class=\"next\" onclick=\"javascript:dPlayNext();\"\/>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<p style=\"text-align:center;color:#999;\"\/>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_body\">\n\t\t\t\t\t<p>¡¡¡¡2016Äê12ÔÂ4ÈÕ£¬ĞÂ½®Ê¡°¢ÀÕÌ©ÊĞ¹úÓªµÚÒ»ÄÁ³¡µÄÎíÚ¡¾°¹Û¡£µ±ÈÕ£¬ĞÂ½®°¢ÀÕÌ©ÊĞºì¶ÕÕò¡¢¹úÓªµÚÒ»ÄÁ³¡¡¢°¢Î­Ì²Õò¡¢ÇĞÄ¾¶ûÇĞ¿ËÕòÒ»´ø³öÏÖ´óÃæ»ıµÄÎíÚ¡¾°¹Û¡£ÃÀÀöµÄÎíÚ¡ÎªÏç´åµÄÊ÷Ä¾ÅûÉÏÒø×°£¬ÓñÊ÷Çí»¨£¬ÉõÊÇºÃ¿´£¬ÓÌÈç±ùÑ©Í¯»°ÊÀ½ç¡£<\/p><p><br\/><\/p>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"img_list\">\n             \t\t<ul><li id=\"list_count\"><a>¹²6Ò³ <\/a><\/li><li id=\"list_proe\"><a href=\"f256601_5.shtml\">ÉÏÒ»Ò³<\/a><\/li><li class=\"list_other\"><a href=\"f256601.shtml\">1<\/a><\/li><li class=\"list_other\"><a href=\"f256601_2.shtml\">2<\/a><\/li><li class=\"list_other\"><a href=\"f256601_3.shtml\">3<\/a><\/li><li class=\"list_other\"><a href=\"f256601_4.shtml\">4<\/a><\/li><li class=\"list_other\"><a href=\"f256601_5.shtml\">5<\/a><\/li><li class=\"list_action\"><a href=\"#\">6<\/a><\/li><li id=\"list_next\"><a href=\"#\">ÏÂÒ»Ò³<\/a><\/li>\n             \t\t<\/ul><\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"clear\">\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\n\t\t\t\t<div class=\"picbox\">\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"imgs\">\n\t\t\t\t\t\t<a><img src=\"http:\/\/img.jinghua.cn\/161205\/38-161205095626.jpg\" id=\"bigimg\" alt=\"\" border=\"0\"\/><\/a>\n\t\t\t\t\t\t<span class=\"prev\" onclick=\"javascript:dPlayPre();\"\/>\n\t\t\t\t\t\t<span class=\"next\" onclick=\"javascript:dPlayNext();\"\/>\n\t\t\t\t\t<\/div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<p style=\"text-align:center;color:#999;\"\/>\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"article_body\">\n\t\t\t\t\t<p>¡¡¡¡2016Äê12ÔÂ4ÈÕ£¬ĞÂ½®Ê¡°¢ÀÕÌ©ÊĞ¹úÓªµÚÒ»ÄÁ³¡µÄÎíÚ¡¾°¹Û¡£µ±ÈÕ£¬ĞÂ½®°¢ÀÕÌ©ÊĞºì¶ÕÕò¡¢¹úÓªµÚÒ»ÄÁ³¡¡¢°¢Î­Ì²Õò¡¢ÇĞÄ¾¶ûÇĞ¿ËÕòÒ»´ø³öÏÖ´óÃæ»ıµÄÎíÚ¡¾°¹Û¡£ÃÀÀöµÄÎíÚ¡ÎªÏç´åµÄÊ÷Ä¾ÅûÉÏÒø×°£¬ÓñÊ÷Çí»¨£¬ÉõÊÇºÃ¿´£¬ÓÌÈç±ùÑ©Í¯»°ÊÀ½ç¡£<\/p><p><br\/><\/p>\n\t\t\t\t<\/div>\n\t\t\t\t<div class=\"img_list\">\n             \t\t<ul><li id=\"list_count\"><a>¹²6Ò³ <\/a><\/li><li id=\"list_proe\"><a href=\"f256601.shtml\">ÉÏÒ»Ò³<\/a><\/li><li class=\"list_other\"><a href=\"f256601.shtml\">1<\/a><\/li><li class=\"list_action\"><a href=\"#\">2<\/a><\/li><li class=\"list_other\"><a href=\"f256601_3.shtml\">3<\/a><\/li><li class=\"list_other\"><a href=\"f256601_4.shtml\">4<\/a><\/li><li class=\"list_other\"><a href=\"f256601_5.shtml\">5<\/a><\/li><li class=\"list_other\"><a href=\"f256601_6.shtml\">6<\/a><\/li><li id=\"list_next\"><a href=\"f256601_3.shtml\">ÏÂÒ»Ò³<\/a><\/li>\n             \t\t<\/ul><\/div>\n\t\t\t\t\n\t\t\t\t<div class=\"clear\">\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t"}
+2017-04-24 00:06:56 [debug] Success process page http://news.jinghua.cn/20161205/f256601.shtml in 5.249 s
+2017-04-24 00:06:56 [info] Spider running in 0d 0h 0m 5s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:02:14 [debug] Find list page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:02:14 [info] Find pages: 1 
+2017-04-24 22:02:14 [info] Waiting for collect pages: 1 
+2017-04-24 22:02:14 [info] Collected pages: 0 
+2017-04-24 22:02:14 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.154 s
+2017-04-24 22:02:14 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.185 s
+2017-04-24 22:02:14 [info] Spider running in 0d 0h 0m 0s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:03:04 [debug] Find list page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:03:04 [info] Find pages: 1 
+2017-04-24 22:03:04 [info] Waiting for collect pages: 1 
+2017-04-24 22:03:04 [info] Collected pages: 0 
+2017-04-24 22:03:04 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.17 s
+2017-04-24 22:03:04 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.203 s
+2017-04-24 22:03:04 [info] Spider running in 0d 0h 0m 0s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:04:47 [debug] Find list page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:04:47 [info] Find pages: 1 
+2017-04-24 22:04:47 [info] Waiting for collect pages: 1 
+2017-04-24 22:04:47 [info] Collected pages: 0 
+2017-04-24 22:04:49 [debug] Success download page http://www.dy2018.com/i/97952.html in 1.132 s
+2017-04-24 22:04:49 [debug] Success process page http://www.dy2018.com/i/97952.html in 1.161 s
+2017-04-24 22:04:49 [info] Spider running in 0d 0h 0m 2s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:05:09 [debug] Find list page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:05:09 [info] Find pages: 1 
+2017-04-24 22:05:09 [info] Waiting for collect pages: 1 
+2017-04-24 22:05:09 [info] Collected pages: 0 
+2017-04-24 22:05:10 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.727 s
+2017-04-24 22:05:10 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.754 s
+2017-04-24 22:05:10 [info] Spider running in 0d 0h 0m 1s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:05:30 [debug] Find list page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:05:30 [info] Find pages: 1 
+2017-04-24 22:05:30 [info] Waiting for collect pages: 1 
+2017-04-24 22:05:30 [info] Collected pages: 0 
+2017-04-24 22:05:30 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.145 s
+2017-04-24 22:05:30 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.184 s
+2017-04-24 22:05:30 [info] Spider running in 0d 0h 0m 0s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:06:15 [debug] Find scan page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:06:15 [info] Find pages: 1 
+2017-04-24 22:06:15 [info] Waiting for collect pages: 1 
+2017-04-24 22:06:15 [info] Collected pages: 0 
+2017-04-24 22:06:18 [debug] Success download page http://www.dy2018.com/i/97952.html in 3.131 s
+2017-04-24 22:06:18 [debug] Success process page http://www.dy2018.com/i/97952.html in 3.147 s
+2017-04-24 22:06:18 [info] Spider running in 0d 0h 0m 3s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:09:49 [debug] Find scan page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:09:49 [info] Find pages: 1 
+2017-04-24 22:09:49 [info] Waiting for collect pages: 1 
+2017-04-24 22:09:49 [info] Collected pages: 0 
+2017-04-24 22:09:50 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.156 s
+2017-04-24 22:09:50 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.194 s
+2017-04-24 22:09:50 [info] Spider running in 0d 0h 0m 1s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:10:14 [debug] Find scan page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:10:14 [info] Find pages: 1 
+2017-04-24 22:10:14 [info] Waiting for collect pages: 1 
+2017-04-24 22:10:14 [info] Collected pages: 0 
+2017-04-24 22:10:18 [debug] Success download page http://www.dy2018.com/i/97952.html in 3.164 s
+2017-04-24 22:10:18 [debug] Success process page http://www.dy2018.com/i/97952.html in 3.196 s
+2017-04-24 22:10:18 [info] Spider running in 0d 0h 0m 4s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:12:56 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:12:56 [info] Find pages: 1 
+2017-04-24 22:12:56 [info] Waiting for collect pages: 1 
+2017-04-24 22:12:56 [info] Collected pages: 0 
+2017-04-24 22:12:56 [debug] Success download page http://www.dy2018.com/ in 0.45 s
+2017-04-24 22:12:56 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:12:56 [debug] Success process page http://www.dy2018.com/ in 0.522 s
+2017-04-24 22:12:56 [info] Spider running in 0d 0h 0m 0s
+2017-04-24 22:12:56 [info] Find pages: 2 
+2017-04-24 22:12:56 [info] Waiting for collect pages: 1 
+2017-04-24 22:12:56 [info] Collected pages: 1 
+2017-04-24 22:12:56 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.113 s
+2017-04-24 22:12:56 [info] Result[1]: {"article_title":"¬"}
+2017-04-24 22:12:56 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.165 s
+2017-04-24 22:12:56 [info] Spider running in 0d 0h 0m 0s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:13:22 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:13:22 [info] Find pages: 1 
+2017-04-24 22:13:22 [info] Waiting for collect pages: 1 
+2017-04-24 22:13:22 [info] Collected pages: 0 
+2017-04-24 22:13:22 [debug] Success download page http://www.dy2018.com/ in 0.233 s
+2017-04-24 22:13:22 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:13:22 [debug] Success process page http://www.dy2018.com/ in 0.27 s
+2017-04-24 22:13:22 [info] Spider running in 0d 0h 0m 0s
+2017-04-24 22:13:22 [info] Find pages: 2 
+2017-04-24 22:13:22 [info] Waiting for collect pages: 1 
+2017-04-24 22:13:22 [info] Collected pages: 1 
+2017-04-24 22:13:22 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.118 s
+2017-04-24 22:13:22 [info] Result[1]: {"article_title":"¬"}
+2017-04-24 22:13:22 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.146 s
+2017-04-24 22:13:22 [info] Spider running in 0d 0h 0m 0s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:14:45 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:14:45 [info] Find pages: 1 
+2017-04-24 22:14:45 [info] Waiting for collect pages: 1 
+2017-04-24 22:14:45 [info] Collected pages: 0 
+2017-04-24 22:14:45 [debug] Success download page http://www.dy2018.com/ in 0.493 s
+2017-04-24 22:14:45 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:14:45 [debug] Success process page http://www.dy2018.com/ in 0.553 s
+2017-04-24 22:14:45 [info] Spider running in 0d 0h 0m 0s
+2017-04-24 22:14:45 [info] Find pages: 2 
+2017-04-24 22:14:45 [info] Waiting for collect pages: 1 
+2017-04-24 22:14:45 [info] Collected pages: 1 
+2017-04-24 22:14:46 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.127 s
+2017-04-24 22:14:46 [info] Result[1]: {"article_title":"¡òÆ¬¡¡¡¡Ãû¡¡°ËÔÂ"}
+2017-04-24 22:14:46 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.177 s
+2017-04-24 22:14:46 [info] Spider running in 0d 0h 0m 1s
+2017-04-24 22:19:13 [error] Spider kept running state needs Redis support, Error: The redis extension was not found
+2017-04-24 22:19:42 [error] Spider kept running state needs Redis support, Error: The redis extension was not found
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:20:27 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:20:27 [info] Find pages: 1 
+2017-04-24 22:20:27 [info] Waiting for collect pages: 1 
+2017-04-24 22:20:27 [info] Collected pages: 0 
+2017-04-24 22:20:28 [debug] Success download page http://www.dy2018.com/ in 0.255 s
+2017-04-24 22:20:28 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:20:28 [debug] Success process page http://www.dy2018.com/ in 0.315 s
+2017-04-24 22:20:28 [info] Spider running in 0d 0h 0m 1s
+2017-04-24 22:20:28 [info] Find pages: 2 
+2017-04-24 22:20:28 [info] Waiting for collect pages: 1 
+2017-04-24 22:20:28 [info] Collected pages: 1 
+2017-04-24 22:20:28 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.123 s
+2017-04-24 22:20:28 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.167 s
+2017-04-24 22:20:28 [info] Spider running in 0d 0h 0m 1s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:29:27 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:29:27 [info] Find pages: 1 
+2017-04-24 22:29:27 [info] Waiting for collect pages: 1 
+2017-04-24 22:29:27 [info] Collected pages: 0 
+2017-04-24 22:29:28 [debug] Success download page http://www.dy2018.com/ in 0.48 s
+2017-04-24 22:29:28 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:29:28 [debug] Success process page http://www.dy2018.com/ in 0.534 s
+2017-04-24 22:29:28 [info] Spider running in 0d 0h 0m 1s
+2017-04-24 22:29:28 [info] Find pages: 2 
+2017-04-24 22:29:28 [info] Waiting for collect pages: 1 
+2017-04-24 22:29:28 [info] Collected pages: 1 
+2017-04-24 22:29:28 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.141 s
+2017-04-24 22:29:28 [info] Result[1]: {"title":"¡òÆ¬¡¡¡¡Ãû¡¡°ËÔÂ","addtime":"¡òÉÏÓ³ÈÕÆÚ¡¡2017-03-24(ÖĞ¹ú´óÂ½)\/2016-07-23(FIRSTÇàÄêÓ°Õ¹)","url":"ftp:\/\/d:d@dygodj8.com:12311\/[µçÓ°ÌìÌÃwww.dy2018.com]°ËÔÂHD¸ßÇå¹úÓïÖĞÓ¢Ë«×Ö.mkv","image":"  <img src=\"http:\/\/tu.23juqing.com\/d\/file\/html\/gndy\/dyzz\/2017-04-23\/309ece0e08855634481a9a10de34fff5.jpg\" alt=\"8c5eba86b9f715ca081d2029e427e33c[1].jpg\" width=\"518\" height=\"793\" \/>"}
+2017-04-24 22:29:28 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.231 s
+2017-04-24 22:29:28 [info] Spider running in 0d 0h 0m 1s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:30:13 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:30:13 [info] Find pages: 1 
+2017-04-24 22:30:13 [info] Waiting for collect pages: 1 
+2017-04-24 22:30:13 [info] Collected pages: 0 
+2017-04-24 22:30:13 [debug] Success download page http://www.dy2018.com/ in 0.209 s
+2017-04-24 22:30:13 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:30:13 [debug] Success process page http://www.dy2018.com/ in 0.272 s
+2017-04-24 22:30:13 [info] Spider running in 0d 0h 0m 0s
+2017-04-24 22:30:13 [info] Find pages: 2 
+2017-04-24 22:30:13 [info] Waiting for collect pages: 1 
+2017-04-24 22:30:13 [info] Collected pages: 1 
+2017-04-24 22:30:13 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.101 s
+2017-04-24 22:30:13 [info] Result[1]: {"title":"¬","addtime":" Ó ³ Ú ¡2017-03-24( Ğ ¹ Â ½)\/2016-07-23(FIRST Ó¡ã Õ ¹)","url":"ftp:\/\/d:d@dygodj8.com:12311\/[ Ó¡ãwww.dy2018.com]HD Ó ¢ Ë «.mkv","image":"  <img src=\"http:\/\/tu.23juqing.com\/d\/file\/html\/gndy\/dyzz\/2017-04-23\/309ece0e08855634481a9a10de34fff5.jpg\" alt=\"8c5eba86b9f715ca081d2029e427e33c[1].jpg\" width=\"518\" height=\"793\" \/>"}
+2017-04-24 22:30:13 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.166 s
+2017-04-24 22:30:13 [info] Spider running in 0d 0h 0m 0s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:31:39 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:31:39 [info] Find pages: 1 
+2017-04-24 22:31:39 [info] Waiting for collect pages: 1 
+2017-04-24 22:31:39 [info] Collected pages: 0 
+2017-04-24 22:31:40 [debug] Success download page http://www.dy2018.com/ in 0.232 s
+2017-04-24 22:31:40 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:31:40 [debug] Success process page http://www.dy2018.com/ in 0.29 s
+2017-04-24 22:31:40 [info] Spider running in 0d 0h 0m 1s
+2017-04-24 22:31:40 [info] Find pages: 2 
+2017-04-24 22:31:40 [info] Waiting for collect pages: 1 
+2017-04-24 22:31:40 [info] Collected pages: 1 
+2017-04-24 22:31:41 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.784 s
+2017-04-24 22:31:41 [info] Result[1]: {"title":"¬","addtime":" Ó ³ Ú ¡2017-03-24( Ğ ¹ Â ½)\/2016-07-23(FIRST Ó¡ã Õ ¹)","url":"ftp:\/\/d:d@dygodj8.com:12311\/[ Ó¡ãwww.dy2018.com]HD Ó ¢ Ë «.mkv","image":"  <img src=\"http:\/\/tu.23juqing.com\/d\/file\/html\/gndy\/dyzz\/2017-04-23\/309ece0e08855634481a9a10de34fff5.jpg\" alt=\"8c5eba86b9f715ca081d2029e427e33c[1].jpg\" width=\"518\" height=\"793\" \/>"}
+2017-04-24 22:31:41 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.812 s
+2017-04-24 22:31:41 [info] Spider running in 0d 0h 0m 2s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:32:14 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:32:14 [info] Find pages: 1 
+2017-04-24 22:32:14 [info] Waiting for collect pages: 1 
+2017-04-24 22:32:14 [info] Collected pages: 0 
+2017-04-24 22:32:19 [error] Failed to download page http://www.dy2018.com/, retry(1)
+2017-04-24 22:32:19 [error] HTTP CODE: 0
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:32:30 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:32:30 [info] Find pages: 1 
+2017-04-24 22:32:30 [info] Waiting for collect pages: 1 
+2017-04-24 22:32:30 [info] Collected pages: 0 
+2017-04-24 22:32:34 [debug] Success download page http://www.dy2018.com/ in 3.766 s
+2017-04-24 22:32:34 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:32:34 [debug] Success process page http://www.dy2018.com/ in 3.829 s
+2017-04-24 22:32:34 [info] Spider running in 0d 0h 0m 4s
+2017-04-24 22:32:34 [info] Find pages: 2 
+2017-04-24 22:32:34 [info] Waiting for collect pages: 1 
+2017-04-24 22:32:34 [info] Collected pages: 1 
+2017-04-24 22:32:34 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.386 s
+2017-04-24 22:32:34 [info] Result[1]: {"title":"¡òÆ¬¡¡¡¡Ãû¡¡°ËÔÂ","addtime":"¡òÉÏÓ³ÈÕÆÚ¡¡2017-03-24(ÖĞ¹ú´óÂ½)\/2016-07-23(FIRSTÇàÄêÓ°Õ¹)","url":"ftp:\/\/d:d@dygodj8.com:12311\/[µçÓ°ÌìÌÃwww.dy2018.com]°ËÔÂHD¸ßÇå¹úÓïÖĞÓ¢Ë«×Ö.mkv","image":"  <img src=\"http:\/\/tu.23juqing.com\/d\/file\/html\/gndy\/dyzz\/2017-04-23\/309ece0e08855634481a9a10de34fff5.jpg\" alt=\"8c5eba86b9f715ca081d2029e427e33c[1].jpg\" width=\"518\" height=\"793\" \/>"}
+2017-04-24 22:32:34 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.438 s
+2017-04-24 22:32:34 [info] Spider running in 0d 0h 0m 4s
+
+[ µçÓ°ÌìÌÃ Spider ] is started...
+
+  * PHPSpider Version: 3.0.4
+  * Documentation: https://doc.phpspider.org
+  * Task Number: 1
+
+Input "php movie.php stop" to quit. Start success.
+
+2017-04-24 22:33:29 [debug] Find scan page: http://www.dy2018.com/
+2017-04-24 22:33:29 [info] Find pages: 1 
+2017-04-24 22:33:29 [info] Waiting for collect pages: 1 
+2017-04-24 22:33:29 [info] Collected pages: 0 
+2017-04-24 22:33:29 [debug] Success download page http://www.dy2018.com/ in 0.205 s
+2017-04-24 22:33:29 [debug] Find content page: http://www.dy2018.com/i/97952.html
+2017-04-24 22:33:29 [debug] Success process page http://www.dy2018.com/ in 0.294 s
+2017-04-24 22:33:29 [info] Spider running in 0d 0h 0m 0s
+2017-04-24 22:33:29 [info] Find pages: 2 
+2017-04-24 22:33:29 [info] Waiting for collect pages: 1 
+2017-04-24 22:33:29 [info] Collected pages: 1 
+2017-04-24 22:33:29 [debug] Success download page http://www.dy2018.com/i/97952.html in 0.108 s
+2017-04-24 22:33:29 [info] Result[1]: {"title":"¡òÆ¬¡¡¡¡Ãû¡¡°ËÔÂ","addtime":"¡òÉÏÓ³ÈÕÆÚ¡¡2017-03-24(ÖĞ¹ú´óÂ½)\/2016-07-23(FIRSTÇàÄêÓ°Õ¹)","url":"ftp:\/\/d:d@dygodj8.com:12311\/[µçÓ°ÌìÌÃwww.dy2018.com]°ËÔÂHD¸ßÇå¹úÓïÖĞÓ¢Ë«×Ö.mkv","image":"  <img src=\"http:\/\/tu.23juqing.com\/d\/file\/html\/gndy\/dyzz\/2017-04-23\/309ece0e08855634481a9a10de34fff5.jpg\" alt=\"8c5eba86b9f715ca081d2029e427e33c[1].jpg\" width=\"518\" height=\"793\" \/>"}
+2017-04-24 22:33:29 [debug] Success process page http://www.dy2018.com/i/97952.html in 0.196 s
+2017-04-24 22:33:29 [info] Spider running in 0d 0h 0m 0s
