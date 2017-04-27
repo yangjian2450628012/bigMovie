@@ -24,8 +24,13 @@ public class IndexDaoTest {
 
     @Test
     public void select(){
-        List<Map<String,String>> list = this.indexDao.queryAll();
-        System.out.print(list.size());
+    	try {
+    		 List<Map<String,String>> list = this.indexDao.queryAll();
+    	        System.out.print(list.size());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+       
     }
 
 }
