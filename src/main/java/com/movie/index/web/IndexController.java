@@ -1,8 +1,6 @@
 package com.movie.index.web;
 
-import java.util.List;
-import java.util.Map;
-
+import com.movie.index.dao.IndexDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,14 +9,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.movie.index.dao.IndexDao;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping(value="/index")
 public class IndexController {
 	private static final Logger logger = LoggerFactory.getLogger(IndexController.class);
 	private IndexDao indexDao;
-	
+
+	/**
+	 * 跳转到首页
+	 * @return
+	 */
+	@RequestMapping
+	public ModelAndView toIndex(){
+		ModelAndView indexView = new ModelAndView("index");
+		//查询列表数据
+		indexView.addObject("name","xiaoyang");
+		return indexView;
+	}
+
 	@RequestMapping("queryAll")
 	@ResponseBody
 	public List<Map<String,String>> queryAll(){
@@ -39,4 +50,5 @@ public class IndexController {
 	public void setIndexDao(IndexDao indexDao) {
 		this.indexDao = indexDao;
 	}
+
 }
