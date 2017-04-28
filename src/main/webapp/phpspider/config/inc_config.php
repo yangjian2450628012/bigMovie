@@ -3,9 +3,9 @@
 $GLOBALS['config']['db'] = array(
     'host'  => '127.0.0.1',
     'port'  => 3306,
-    'user'  => 'root',
-    'pass'  => 'mysql',
-    'name'  => 'phpspider',  //数据库
+    'user'  => 'movie',
+    'pass'  => 'movie',
+    'name'  => 'movie',  //数据库
 );
 
 $GLOBALS['config']['redis'] = array(
