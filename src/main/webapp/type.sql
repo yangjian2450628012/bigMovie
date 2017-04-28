@@ -1,3 +1,4 @@
+-- 配置修改mysql的配置文件 my.ini 计算机\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MySQL57(找到imagePath里面的文件路径 )
 
 
 drop table if EXISTS `movie_type`;
@@ -18,8 +19,6 @@ create table `movie_classification` (
 `create_time` datetime not null COMMENT '创建时间',
  PRIMARY KEY (`id`)  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-
 
 DROP TABLE IF EXISTS `my_orders`;  
 CREATE TABLE `my_orders` (    ---创建订单表
@@ -43,6 +42,61 @@ PARTITION BY RANGE (YEAR(atime))
 );  
 EXPLAIN PARTITIONS SELECT * FROM `my_orders`  --- 执行创建表语句过程执行计划
 
+--爬虫后信息
+drop table if EXISTS `movie_detail_splider`;
+create table `movie_detail_splider`(
+`id` int(10) unsigned not null AUTO_INCREMENT comment '主键id',
+`movie_name` VARCHAR (50) not null comment '影片名',
+`image` VARCHAR (50) not null comment '影片图片路径',
+`translation` VARCHAR (50) comment '译名',
+`upload_time` datetime not null comment '发布时间',
+`years` datetime not null comment '年代',
+`country` VARCHAR (10) not null comment '国家',
+`language` VARCHAR (10) not null comment '语言',
+`subtitle` VARCHAR (10) comment '字幕',
+`file_format` VARCHAR (10) comment '文件格式',
+`video_size` VARCHAR (10) comment '视频尺寸',
+ `file_zise` VARCHAR (6) comment '文件大小',
+  `movie_long` VARCHAR (5) comment '片长',
+  `director` VARCHAR (10) not null comment '导演',
+  `brief_introduction` VARCHAR (150) not null comment '简介',
+  `url` VARCHAR (100) not null comment '对应ftp下载路径',
+   `release_time` datetime not null comment '上映时间',
+   `success_status` char(2) not null comment '是否下载成功',
+   PRIMARY KEY (`id`)
+)  ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/* 影片下载成功后保存信息 */
+drop table if EXISTS  `movie_detail`;
+create table `movie_detail`(
+`id` int(10) unsigned not null AUTO_INCREMENT comment '主键id',
+`movie_name` VARCHAR (50) not null comment '影片名',
+`image` VARCHAR (50) not null comment '影片图片路径',
+`translation` VARCHAR (50) comment '译名',
+`movie_type` VARCHAR (10) not null comment '影片类型',
+`classification_type` VARCHAR (10) comment '影片分类',
+`upload_time` datetime not null comment '发布时间',
+`years` datetime not null comment '年代',
+`country` VARCHAR (10) not null comment '国家',
+`language` VARCHAR (10) not null comment '语言',
+`subtitle` VARCHAR (10) comment '字幕',
+`file_format` VARCHAR (10) comment '文件格式',
+`video_size` VARCHAR (10) comment '视频尺寸',
+ `file_zise` VARCHAR (6) comment '文件大小',
+  `movie_long` VARCHAR (5) comment '片长',
+  `director` VARCHAR (10) not null comment '导演',
+  `brief_introduction` VARCHAR (150) not null comment '简介',
+  `url` VARCHAR (100) not null comment '影片存放位置',
+   `release_time` datetime not null comment '上映时间',
+    PRIMARY KEY (`id`,`years`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+PARTITION BY RANGE (YEAR(years))
+(
+  partition p0 values less than (2014),
+  partition p1 VALUES less than (2015),
+   PARTITION p2 VALUES LESS THAN (2016),
+   PARTITION p3 VALUES LESS THAN (2017),
+   PARTITION p4 VALUES LESS THAN MAXVALUE
+);
 
 DROP TABLE IF EXISTS `my_orders_notpart`;  
 -- 创建为分区表
