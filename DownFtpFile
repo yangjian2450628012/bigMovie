@@ -1,0 +1,144 @@
+package com.movie.downftp.comm;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.HashMap;
+import java.util.Map;
+
+
+/**
+ * 查询FTP电影url,查询下载完成一部，再查询一部
+ * @author xiaoyang
+ *
+ */
+public class DownFtpFile {
+	private static String url = "jdbc:mysql://xiaoyang.mysql.rds.aliyuncs.com:3306/xiaoyang_movie";
+	private static String uid = "xiaoyang_666";
+	private static String pwd = "Yj04051711_666";
+	private static int start = 0;
+	
+	public static void main(String[] args) {
+		if(args.length >= 4){
+			url = args[0]; uid = args[1]; pwd = args[2] ;start = Integer.valueOf(args[3]); //从第几个开始查询
+		}
+		DbHelp dbHelp = new DownFtpFile().new DbHelp(url,uid,pwd);
+		try {
+			dbHelp.getCon();
+			String sql = "SELECT m.movie_name,m.translation,m.url FROM `movie_detail_splider` m where m.success_status ='' order by m.release_time desc limit "+start+",1";
+			Map<String,String> map = dbHelp.queryData(sql);
+			if(map != null){
+				StringBuilder result = new StringBuilder();
+				String url2 = map.get("url").substring(0, map.get("url").lastIndexOf("/")) + "/新建文件夹" + 
+				map.get("url").substring(map.get("url").lastIndexOf("/"), map.get("url").length()-1);
+				
+				String name = (map.get("translation") != null || "".equals(map.get("translation"))) ? map.get("movie_name"):map.get("translation");
+				result.append(name.hashCode()).append(map.get("url").substring(map.get("url").lastIndexOf(".")))
+				.append("|").append(map.get("url")).append("|").append(url2);
+				System.out.println(result.toString());
+				System.out.flush();
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	/**
+	 * 数据库操作类
+	 * @author xiaoyang
+	 *
+	 */
+	class DbHelp{
+		private Connection con;
+		private Statement stmt;
+		private ResultSet rs;
+		private String url;
+		private String uid;
+		private String pwd;
+		public DbHelp(String url, String uid, String pwd) {
+			this.url = url;
+			this.uid = uid;
+			this.pwd = pwd;
+		}
+		/***
+		 * 得到数据库连接
+		 * <p>
+		 * 一个操作中只能打开一次连接（一个操作包括要执行好几个sql）
+		 * 
+		 * @return
+		 * @throws Exception
+		 */
+		public void getCon() throws Exception {
+			if (null == con) {
+				Class.forName("com.mysql.jdbc.Driver");
+				con = DriverManager.getConnection(url, uid, pwd);
+			}
+		}
+		
+		/***
+		 * 查询数据库中的数据，执行select语句 使用完后请手工关闭Statement和ResultSet
+		 * <p>
+		 * 调用stmtClose()方法
+		 * 
+		 * @param sql
+		 * @return
+		 * @throws Exception
+		 */
+		public Map<String,String> queryData(String sql) throws Exception {
+			this.getCon();
+			if (null == con) {
+				throw new Exception("没有可用的连接");
+			}
+			if ("".equals(sql) || sql == null) {
+				throw new Exception("sql语句无效");
+			}
+			Map<String,String> map = null;
+			this.stmt = this.con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);// 创建语句对象
+			this.rs = this.stmt.executeQuery(sql);
+			if(rs.next()){
+				map = new HashMap<String, String>();
+				map.put("movie_name", rs.getString(1));
+				map.put("translation", rs.getString(2));
+				map.put("url", rs.getString(3));
+			}
+			dbClose();
+			stmtClose();
+			return map;
+		}
+		
+		/***
+		 * 关闭数据库操作的所有资源(全部操作执行完后再调用)，此方法将关闭数据库连接，请慎用
+		 */
+		private void dbClose() throws Exception {
+			if (null != this.rs) {
+				this.rs.close();
+				this.rs = null;
+			}
+			if (null != this.stmt) {
+				this.stmt.close();
+				this.stmt = null;
+			}
+			if (null != this.con) {
+				this.con.close();
+				this.con = null;
+			}
+		}
+
+		/**
+		 * 关闭并释放Statement和ResultSet
+		 * 
+		 * @throws Exception
+		 */
+		private void stmtClose() throws Exception {
+			if (null != this.rs) {
+				this.rs.close();
+				this.rs = null;
+			}
+			if (null != this.stmt) {
+				this.stmt.close();
+				this.stmt = null;
+			}
+		}
+	}
+	
+}
