@@ -1,11 +1,17 @@
 package com.movie.downftp.comm;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTPClientConfig;
+import org.apache.commons.net.ftp.FTPFile;
+import org.apache.commons.net.ftp.FTPReply;
 
 
 /**
@@ -17,32 +23,156 @@ public class DownFtpFile {
 	private static String url = "jdbc:mysql://xiaoyang.mysql.rds.aliyuncs.com:3306/xiaoyang_movie";
 	private static String uid = "xiaoyang_666";
 	private static String pwd = "Yj04051711_666";
-	private static int start = 0;
+	private static int start = 1;
 	
 	public static void main(String[] args) {
 		if(args.length >= 4){
 			url = args[0]; uid = args[1]; pwd = args[2] ;start = Integer.valueOf(args[3]); //从第几个开始查询
 		}
 		DbHelp dbHelp = new DownFtpFile().new DbHelp(url,uid,pwd);
-		try {
-			dbHelp.getCon();
-			String sql = "SELECT m.movie_name,m.translation,m.url FROM `movie_detail_splider` m where m.success_status ='' order by m.release_time desc limit "+start+",1";
-			Map<String,String> map = dbHelp.queryData(sql);
-			if(map != null){
-				StringBuilder result = new StringBuilder();
-				String url2 = map.get("url").substring(0, map.get("url").lastIndexOf("/")) + "/新建文件夹" + 
-				map.get("url").substring(map.get("url").lastIndexOf("/"), map.get("url").length()-1);
-				
-				String name = (map.get("translation") != null || "".equals(map.get("translation"))) ? map.get("movie_name"):map.get("translation");
-				result.append(name.hashCode()).append(map.get("url").substring(map.get("url").lastIndexOf(".")))
-				.append("|").append(map.get("url")).append("|").append(url2);
-				System.out.println(result.toString());
-				System.out.flush();
+		boolean res = false;
+		while(!res){ 
+			System.out.println("start :"+start);
+			try {
+				dbHelp.getCon();
+				String sql = "SELECT m.movie_name,m.translation,m.url FROM `movie_detail_splider` m "
+						+ "where m.url not like '%dygod18.com%' and m.success_status ='' order by m.release_time desc limit "+(start - 1)+",1";
+				Map<String,String> map = dbHelp.queryData(sql);
+				if(map != null){
+					String ftpUrl = map.get("url"),movie_name = map.get("movie_name"),translation = map.get("translation");
+					String[] uid_pwd = ftpUrl.substring(ftpUrl.indexOf("//")+2, ftpUrl.indexOf("@")).split(":");
+					String ftp_uid = uid_pwd[0],ftp_pwd = uid_pwd[1];
+					String [] host_port = ftpUrl.substring(ftpUrl.indexOf("@")+1, ftpUrl.lastIndexOf("/")).split(":");
+					String ftp_host = host_port[0];int ftp_port = Integer.valueOf(host_port[1]);
+					String filename = ftpUrl.substring(ftpUrl.lastIndexOf("/")+1, ftpUrl.length()-1);
+					System.out.println(ftp_host+":"+ftp_port+"===>"+ftp_uid+":"+ftp_pwd);
+					FtpUtil ftpUitl = new DownFtpFile().new FtpUtil(ftp_host,ftp_port,ftp_uid,ftp_pwd,filename);
+					try {
+						if(ftpUitl.getConnect()){ //获取连接
+							String path = ftpUitl.getPath(); //获取指定文件的目录
+							if(!"".equals(path) && path != null){
+								System.out.println("path:" + path);
+								res = true;
+							}else{
+								start ++;
+							}
+						}else{
+							start ++;
+						}
+					} catch (Exception e) {
+						start ++;
+						e.printStackTrace();
+					}
+				}else{
+					start ++;
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
 			}
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
+	
+	class FtpUtil{
+		private String host;
+		private Integer port;
+		private String uid;
+		private String pwd;
+		private String filename;
+		private FTPClient ftpClient;
+		private String path;
+		public FtpUtil(String host, int port, String uid, String pwd, String filename) 
+				throws IOException {
+			this.host = host;
+			this.port = port;
+			this.uid = uid;
+			this.pwd = pwd;
+			this.filename = filename;
+		}
+		/**
+		 * 获取连接
+		 * @param host
+		 * @param port
+		 * @param uid
+		 * @param pwd
+		 * @return
+		 * @throws IOException
+		 */
+		public boolean getConnect() 
+				throws IOException{
+			ftpClient = new FTPClient();
+			ftpClient.connect(host, port);
+			ftpClient.login(uid, pwd);
+			ftpClient.setConnectTimeout(1000); // 一秒钟，如果超过就判定超时了
+//			ftpClient.setControlEncoding("GBK");
+            FTPClientConfig conf = new FTPClientConfig( FTPClientConfig.SYST_UNIX); //设置linux环境
+//            conf.setServerLanguageCode("zh");
+            ftpClient.configure(conf);
+            ftpClient.enterLocalPassiveMode(); //设置被动模式
+            int reply = ftpClient.getReplyCode(); //判断是否连接成功
+            if (!FTPReply.isPositiveCompletion(reply))
+            {
+            	ftpClient.disconnect();
+                return false;
+            }
+            return true;
+		}
+		
+		/** 
+	     * 递归遍历出目录下面所有文件 
+	     * @param pathName 需要遍历的目录，必须以"/"开始和结束 
+	     * @throws IOException 
+	     */  
+	    public void getFtpPath(String pathName,String filename) throws IOException{  
+	    	System.out.println("path===> " + pathName);
+	    	boolean r = ftpClient.changeWorkingDirectory(pathName); //切换目录
+    		if(r){
+    			FTPFile[] files = ftpClient.listFiles();
+        		for (int i = 0; i < files.length; i++) {
+        			FTPFile file = files[i];
+        			System.out.println(file.getName());
+        			if(file.isFile()){ 
+        				if(filename.equals(file.getName())) {
+        					this.path = pathName + file.getName();
+        					return;
+        				}
+                    }else if(file.isDirectory() ){  
+                    	if(".".equals(file.getName()) || "..".equals(file.getName())){
+                    		continue;
+                    	}else{
+                    		this.getFtpPath(pathName + file.getName() +"/", filename);
+                    	}
+                    }
+    				/*
+    				if(ftpFile.isFile()){
+//    					System.out.println(ftpFile.getName());
+    					if(filename.equals(ftpFile.getName())){
+    						this.path = pathName +ftpFile.getName();
+    					}
+    				}else{
+    					this.getFtpPath(pathName + ftpFile.getName() +"/", filename);
+    				}*/
+    			}
+    		}
+	    }  
+		
+		private void disConn() throws IOException{
+			if(ftpClient != null){
+				ftpClient.disconnect();
+			}
+		}
+		
+		/**
+		 * 获取文件在ftp中的位置
+		 * @return
+		 * @throws IOException 
+		 */
+		public String getPath() throws IOException{
+			getFtpPath("/",this.filename);
+			this.disConn(); //关闭连接
+			return this.path;
+		}
+	}
+	
 	/**
 	 * 数据库操作类
 	 * @author xiaoyang
