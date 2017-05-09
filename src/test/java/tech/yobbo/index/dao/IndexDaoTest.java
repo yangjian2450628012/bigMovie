@@ -1,4 +1,4 @@
-package com.movie.index.dao;
+package tech.yobbo.index.dao;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

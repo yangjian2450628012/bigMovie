@@ -1,6 +1,6 @@
-package com.movie.index.web;
+package tech.yobbo.index.web;
 
-import com.movie.index.dao.IndexDao;
+import tech.yobbo.index.dao.IndexDao;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.movie.downftp.comm;
+package tech.yobbo.downftp.comm;
 
 import java.io.IOException;
 import java.sql.Connection;

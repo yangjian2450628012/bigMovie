@@ -1,4 +1,4 @@
-package com.movie.index.service;
+package tech.yobbo.index.service;
 
 /**
  * Created by xiaoJ on 2017/4/27.

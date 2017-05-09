@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
-	xmlns:context="http://www.springframework.org/schema/context"
-	xmlns:mvc="http://www.springframework.org/schema/mvc"
-	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
    <!-- 配置整合mybatis -->
     <!-- 配置数据库相关参数
@@ -32,12 +31,12 @@
     	<property name="dataSource" ref="dataSource"/>
     	<property name="configLocation" value="classpath:conf/mybatis-config.xml"/>
 		<!--<property name="typeAliasesPackage" value="com.movie.*.entity"/> 使用模板时使用 -->
-    	<property name="mapperLocations" value="classpath:com/movie/*/dao/*.xml"/>
+    	<property name="mapperLocations" value="classpath:tech/yobbo/*/dao/*.xml"/>
     </bean>   
     
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
     	<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
-    	<property name="basePackage" value="com.movie.*.dao"/>
+    	<property name="basePackage" value="tech.yobbo.*.dao"/>
     </bean>
     
 </beans>

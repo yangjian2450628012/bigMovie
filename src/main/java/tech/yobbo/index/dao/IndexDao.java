@@ -1,4 +1,4 @@
-package com.movie.index.dao;
+package tech.yobbo.index.dao;
 
 import java.util.List;
 import java.util.Map;
