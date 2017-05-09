@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>首页</title>
+    #parse("../comm/comm.vm")
+    #include("../comm/comm.vm")
 </head>
 <body>
 欢迎来到我的世界!
