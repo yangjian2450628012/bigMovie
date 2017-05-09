@@ -15,7 +15,11 @@
 		  <version>4.11</version>
 		  <scope>test</scope>
 	  </dependency>
-
+	  <dependency>
+		  <groupId>commons-net</groupId>
+		  <artifactId>commons-net</artifactId>
+		  <version>3.6</version>
+	  </dependency>
 	  <!-- 1.日志 java日志：slf4j,log4j,logback,comm-logging
          slf4j 是规范/接口
          日志实现:log4j,logback,comm-logging
